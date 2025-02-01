@@ -2,7 +2,7 @@ import React from 'react'
 
 import Navbarcom from './components/Navbarcom'
 import Comp2 from './components/Comp2'
-import Comp3 from './components/comp3'
+import Comp3 from './components/Comp3'
 import Comp4 from './components/Comp4'
 import Comp5 from './components/Comp5'
 import Comp6 from './components/Comp6'
