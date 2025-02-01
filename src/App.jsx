@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navbarcom from './components/navbarcom'
+import Navbarcom from './components/Navbarcom'
 import Comp2 from './components/Comp2'
 import Comp3 from './components/comp3'
 import Comp4 from './components/Comp4'
