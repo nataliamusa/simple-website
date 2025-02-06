@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Navbarcom() {
   return (
@@ -9,13 +11,13 @@ export default function Navbarcom() {
     <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link " href="#">Portfolio </a>
+          <Link className="nav-link " to={'/portfolio'} >Portfolio </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="#">About</a>
+          <Link className="nav-link " to={'/about'}>About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="#">Contact </a>
+        <Link className="nav-link " to={'/contact'}>Contact</Link>
           
         </li>
        
